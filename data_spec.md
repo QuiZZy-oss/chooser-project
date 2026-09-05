@@ -33,8 +33,8 @@ Date range is 2018-01-01 to 2024-12-31 for every field. Role tags: **Formula inp
 | 3 | Financial | VIX close | Yahoo Finance (`^VIX`) | daily | 18–24 | Feature |
 | 4 | Macroeconomic | 1-year Treasury rate | FRED (`DGS1`) | daily | 18–24 | Formula input (r) |
 | 5 | Macroeconomic | 3-month Treasury rate | FRED (`DGS3MO`) | daily | 18–24 | Feature (rate momentum) |
-| 6 | Sentiment | News sentiment score | Alpha Vantage News & Sentiment | daily | 18–24 | Feature |
-| 7 | Market target | JPM option transaction prices | CME | per trade | 18–24 | Target |
+| 6 | Sentiment | News sentiment score | Reuters News API | daily | 18–24 | Feature |
+| 7 | Market target | JPM option transaction prices | CME Group Historical Data | per trade | 18–24 | Target |
 
 ## 4. Field notes
 
