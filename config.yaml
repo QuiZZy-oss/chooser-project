@@ -1,0 +1,19 @@
+# Chooser Option Pricing Project - configuration
+# Values chosen for the project, read by the pull scripts and the pricer.
+
+contract:
+  underlying: JPM
+  K: 150          # strike
+  T: 1.0          # time to final expiry, years
+  t1: 0.5         # time to choice date, years
+
+data:
+  start: "2018-01-01"
+  end:   "2024-12-31"
+  vix_ticker: "^VIX"
+  # Adjusted close accounts for splits/dividends (standard for return series).
+  # Set false to store raw (unadjusted) close instead. This is the Week 2 decision.
+  adjusted_close: true
+
+paths:
+  raw_dir: "data/raw"
